@@ -1,4 +1,3 @@
-import csv
 from connect import ers
 
 try:

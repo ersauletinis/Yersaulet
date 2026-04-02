@@ -1,5 +1,5 @@
 import csv
-from connect1 import ers
+from connect import ers
 
 try:
     connec = ers()
@@ -16,7 +16,6 @@ try:
 
     
     # 2 Add user 
-    #call era('Yersaulet','7777777')
     a=input("name: ")
     b=input("phone: ")
     with connec.cursor() as cursor:
